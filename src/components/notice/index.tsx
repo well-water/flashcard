@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Button} from "semantic-ui-react";
 
 type Props = {
     text: string
