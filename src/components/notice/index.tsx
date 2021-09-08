@@ -1,14 +1,14 @@
-import * as React from 'react';
+import React from 'react';
 
 type Props = {
     text: string
 };
-const Notice = (props: Props) => {
-    const { text } = props
-    return (
-        <div>
-            {text}
-        </div>
-    );
+const Notice: React.FC<Props> = (props: Props) => {
+  const { text } = props;
+  return (
+    <div>
+      {text}
+    </div>
+  );
 };
-export default Notice
+export default Notice;
