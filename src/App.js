@@ -1,14 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Notice from "./components/notice";
-
+import MainMenu from "./components/main-menu";
+import './App.css'
+import FolderList from "./components/folder-list/FolderList";
+import {folders} from "./data/folders";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-          <Notice text="我是一个消息"/>
-      </header>
+        <MainMenu />
+        <FolderList folders={folders} />
     </div>
   );
 }
