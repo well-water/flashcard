@@ -1,13 +1,12 @@
 import MainMenu from './components/main-menu';
 import './App.css';
-import FolderList from './components/folder-list/FolderList';
-import folders from './data/folders';
+import MainContainer from "./components/main-container";
 
 
 const App = () => (
   <div className="App">
     <MainMenu />
-    <FolderList folders={folders} />
+    <MainContainer />
   </div>
 );
 

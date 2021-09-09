@@ -17,7 +17,7 @@ const FolderList: React.FC<Props> = (props: Props) => {
                       {
                             folders.map(
                               (folder) => (
-                                <List.Item>
+                                <List.Item key={folder.title}>
                                   <List.Icon name="folder" />
                                   <List.Content>
                                     <List.Header>{folder.title}</List.Header>

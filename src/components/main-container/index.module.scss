@@ -1,0 +1,10 @@
+.container{
+  display: flex;
+  .left{
+
+  }
+  .right{
+    margin-left: 2em;
+    flex: 1;
+  }
+}
